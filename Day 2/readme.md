@@ -31,7 +31,15 @@
 27. Use __repeat()__ method to print 30 Days Of JavaScript 2 times
 28. Love is the best thing in this world. Some found their love and some are still looking for their love. Count the number of word love in this sentence.
 29. Calculate the total annual income of the person by extract the numbers from the following text. 'He earns 5000 euro from salary per month, 10000 euro annual bonus, 15000 euro online courses per month.'
-30. Clean the following text(hint, use replace and regular express)
+30. Clean the following text and find the most frequent word(hint, use replace and regular express).
 ```js
     sentence = '%I $am@% a %tea@cher%, &and& I lo%#ve %tea@ching%;. There $is nothing; &as& mo@re rewarding as educa@ting &and& @emp%o@wering peo@ple. ;I found tea@ching m%o@re interesting tha@n any other %jo@bs. %Do@es thi%s mo@tivate yo@u to be a tea@cher!?'
+```
+31. Using console.log() print out the following statement.
+  ```sh
+  The quote 'There is no exercise better for the heart than reaching down and lifting people up.' by John Holmes teaches us to help to one another.
+  ```
+32. Using console.log() print out the following quote by Mother Teresa.
+```sh
+"Love is not patronizing and charity isn't about pity, it is about love. Charity and love are the same -- with charity you give love, so don't just give money but reach out your hand instead."
 ```

@@ -94,5 +94,22 @@ var totalAnnual = ( ( parseInt(gains[0]) + parseInt(gains[2]) ) * 12 ) + parseIn
 console.log(totalAnnual)
 
 //Exercise 30
+var repetitiveWord = ""
+var timesWord = 0
 var crazySentence = "%I $am@% a %tea@cher%, &and& I lo%#ve %tea@ching%;. There $is nothing; &as& mo@re rewarding as educa@ting &and& @emp%o@wering peo@ple. ;I found tea@ching m%o@re interesting tha@n any other %jo@bs. %Do@es thi%s mo@tivate yo@u to be a tea@cher!?"
-console.log(crazySentence.replace(/[^A-Za-z\s\.\?]*/g,''))
+var normalSentence = crazySentence.replace(/[^A-Za-z\s]*/g,'').toLowerCase();
+normalSentence.split(' ').forEach(word => {
+  var expression = new RegExp(`${word}`,'gi')
+  var matchedWord = normalSentence.match(expression)
+  if(matchedWord.length > timesWord){
+    repetitiveWord = word
+    timesWord = matchedWord.length
+  }
+});
+console.log(repetitiveWord)
+
+//Exercise 31
+console.log("The quote 'There is no exercise better for the heart than reaching down and lifting people up.' by John Holmes teaches us to help to one another.")
+
+//Exercise 32
+console.log("\"Love is not patronizing and charity isn't about pity, it is about love. Charity and love are the same -- with charity you give love, so don't just give money but reach out your hand instead.\"")
