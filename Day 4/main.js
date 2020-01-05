@@ -56,7 +56,7 @@ var sentence = ( (number % 2) == 0 ) ? "even" : "odd"
 console.log(`${number} is an ${sentence} number`)
 
 //Exercise 7
-var day = prompt("What is the day is today ?").toLowerCase();
+var day = prompt("What is the day is today ?").toLowerCase()
 var sentence = "work"
 if((day == "saturday") || (day == "sunday")){
   sentence = "weekend"
