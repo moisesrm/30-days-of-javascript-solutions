@@ -3,7 +3,7 @@ Here's my solutions for each day
 
 :octocat: [30DaysOfJavaScript](https://github.com/Asabeneh/30DaysOfJavaScript)
 
-#:books:Exercises
+# :books: Exercises
 
 [:computer: Day 1](https://github.com/Asabeneh/30DaysOfJavaScript/blob/master/readMe.md)
 
@@ -14,3 +14,5 @@ Here's my solutions for each day
 [:computer: Day 4](https://github.com/Asabeneh/30DaysOfJavaScript/blob/master/04_Day/04_day_conditionals.md)
 
 [:computer: Day 5](https://github.com/Asabeneh/30DaysOfJavaScript/blob/master/05_Day/05_day_arrays.md)
+
+[:computer: Day 6](https://github.com/Asabeneh/30DaysOfJavaScript/blob/master/06_Day/06_day_loops.md)
