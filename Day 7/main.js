@@ -433,7 +433,12 @@ function sevenRandomNumbers(){
       randNumbers.push(i)
     }
   }
-
+  
   return randNumbers
 }
 
+//Exercise 52
+function reverseCountries(countries){
+  var copy = countries
+  return countries.reverse()
+}
