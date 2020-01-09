@@ -16,3 +16,7 @@ Here's my solutions for each day
 [:computer: Day 5](https://github.com/Asabeneh/30DaysOfJavaScript/blob/master/05_Day/05_day_arrays.md)
 
 [:computer: Day 6](https://github.com/Asabeneh/30DaysOfJavaScript/blob/master/06_Day/06_day_loops.md)
+
+[:computer: Day 7](https://github.com/Asabeneh/30DaysOfJavaScript/blob/master/07_Day/07_day_functions.md)
+
+[:computer: Day 8](https://github.com/Asabeneh/30DaysOfJavaScript/blob/master/08_Day/08_day_objects.md)
