@@ -20,3 +20,5 @@ Here's my solutions for each day
 [:computer: Day 7](https://github.com/Asabeneh/30DaysOfJavaScript/blob/master/07_Day/07_day_functions.md)
 
 [:computer: Day 8](https://github.com/Asabeneh/30DaysOfJavaScript/blob/master/08_Day/08_day_objects.md)
+
+[:computer: Day 9](https://github.com/Asabeneh/30DaysOfJavaScript/blob/master/09_Day/09_day_higher_order_functions.md)
