@@ -22,3 +22,9 @@ Here's my solutions for each day
 [:computer: Day 8](https://github.com/Asabeneh/30DaysOfJavaScript/blob/master/08_Day/08_day_objects.md)
 
 [:computer: Day 9](https://github.com/Asabeneh/30DaysOfJavaScript/blob/master/09_Day/09_day_higher_order_functions.md)
+
+[:computer: Day 10](https://github.com/Asabeneh/30DaysOfJavaScript/blob/master/09_Day/09_day_Set_and_Map.md)
+
+[:computer: Day 11](https://github.com/Asabeneh/30DaysOfJavaScript/blob/master/11_Day/11_destructuring_and_spread.md)
+
+[:computer: Day 12](https://github.com/Asabeneh/30DaysOfJavaScript/blob/master/12_Day/12_day_regular_expressions.md)
