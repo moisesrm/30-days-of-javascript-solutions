@@ -28,3 +28,7 @@ Here's my solutions for each day
 [:computer: Day 11](https://github.com/Asabeneh/30DaysOfJavaScript/blob/master/11_Day/11_destructuring_and_spread.md)
 
 [:computer: Day 12](https://github.com/Asabeneh/30DaysOfJavaScript/blob/master/12_Day/12_day_regular_expressions.md)
+
+[:computer: Day 13](github.com/Asabeneh/30DaysOfJavaScript/blob/master/13_Day/13_day_console_object_methods.md)
+
+[:computer: Day 14](https://github.com/Asabeneh/30DaysOfJavaScript/blob/master/14_Day/14_day_error_handling.md)
