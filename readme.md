@@ -32,3 +32,5 @@ Here's my solutions for each day
 [:computer: Day 13](github.com/Asabeneh/30DaysOfJavaScript/blob/master/13_Day/13_day_console_object_methods.md)
 
 [:computer: Day 14](https://github.com/Asabeneh/30DaysOfJavaScript/blob/master/14_Day/14_day_error_handling.md)
+
+[:computer: Day 15](https://github.com/Asabeneh/30DaysOfJavaScript/blob/master/15_Day/15_day_classes.md)
