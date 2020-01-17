@@ -34,3 +34,5 @@ Here's my solutions for each day
 [:computer: Day 14](https://github.com/Asabeneh/30DaysOfJavaScript/blob/master/14_Day/14_day_error_handling.md)
 
 [:computer: Day 15](https://github.com/Asabeneh/30DaysOfJavaScript/blob/master/15_Day/15_day_classes.md)
+
+[:computer: Day 16](https://github.com/Asabeneh/30DaysOfJavaScript/blob/master/16_Day/16_day_json.md)
