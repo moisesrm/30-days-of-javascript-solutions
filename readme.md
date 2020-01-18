@@ -36,3 +36,5 @@ Here's my solutions for each day
 [:computer: Day 15](https://github.com/Asabeneh/30DaysOfJavaScript/blob/master/15_Day/15_day_classes.md)
 
 [:computer: Day 16](https://github.com/Asabeneh/30DaysOfJavaScript/blob/master/16_Day/16_day_json.md)
+
+[:computer: Day 17](https://github.com/Asabeneh/30DaysOfJavaScript/blob/master/17_Day/17_day_web_storage.md)
