@@ -38,3 +38,7 @@ Here's my solutions for each day
 [:computer: Day 16](https://github.com/Asabeneh/30DaysOfJavaScript/blob/master/16_Day/16_day_json.md)
 
 [:computer: Day 17](https://github.com/Asabeneh/30DaysOfJavaScript/blob/master/17_Day/17_day_web_storage.md)
+
+[:computer: Day 18](https://github.com/Asabeneh/30DaysOfJavaScript/blob/master/18_Day/18_day_promise.md)
+
+[:computer: Day 19](https://github.com/Asabeneh/30DaysOfJavaScript/blob/master/19_Day/day_19_closure.md)
