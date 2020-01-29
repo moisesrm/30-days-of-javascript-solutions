@@ -1,0 +1,23 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>JavaScript for Everyone:DOM</title>
+    <script src="main.js"></script>
+    <style>
+      .levels{
+        display: grid;
+        grid-template-columns: repeat(6, auto);
+        grid-column-gap: 5px;
+        grid-row-gap: 5px;
+      }
+      .levels span{
+        border: 1px solid;
+      }
+    </style>
+  </head>
+  <body>
+    <input id="numbers"></input><button onclick="generateLvl1()"></button>
+    <div id='level1' class="levels"></div>
+  </body>
+</html>

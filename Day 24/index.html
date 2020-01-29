@@ -1,0 +1,35 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>JavaScript for Everyone:DOM</title>
+    <script src="main.js"></script>
+    <style>
+      body{
+        color: white;
+        height: 97vh;
+        background-image: url("https://github.com/Asabeneh/30DaysOfJavaScript/blob/master/24_Day/24_day_starter/images/galaxy.gif?raw=true");
+      }
+    </style>
+  </head>
+  <body>
+    <input name='weigth' type='number'></input>
+    <select name='planet'>
+      <option value="0">Earth</option>
+      <option value="1">Jupiter</option>
+      <option value="2">Mars</option>
+      <option value="3">Mercury</option>
+      <option value="4">Moon</option>
+      <option value="5">Neptune</option>
+      <option value="6">Pluto</option>
+      <option value="7">Saturn</option>
+      <option value="8">Uranus</option>
+      <option value="9">Venus</option>
+    </select>
+    <button onclick="gravityCalculator.calculate()">Calculate</button>
+    <br/>
+    <span id='gravity'></span>
+    <br/>
+    <img id='planet-img'></img>
+  </body>
+</html>

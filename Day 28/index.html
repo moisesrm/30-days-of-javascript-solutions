@@ -1,0 +1,98 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>JavaScript for Everyone:DOM</title>
+    <script src="countries.js"></script>
+    <style>
+      body{ height: 97vh; }
+      article {
+        display: grid;
+        grid-template-columns: auto;
+        grid-column-gap: 5px;
+      }
+      article span{
+        padding: 15%;
+        border: 1px solid;
+        justify-content: center;
+        display: flex;
+
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <input type='text' placeholder='firstname' name='firstname'>
+      <input type='text' placeholder='lastname' name='lastname'>
+      <input type='number' placeholder='score' name='score'>
+      <button onclick="save()">+</button>
+    </header>
+
+    <section id='players_list'>
+
+    </section>
+  </body>
+  <script>
+    var players  = []
+    var firstname= document.getElementsByName('firstname')[0]
+    var lastname = document.getElementsByName('lastname')[0]
+    var score    = document.getElementsByName('score')[0]
+    var players_list = document.querySelector('#players_list')
+    
+    function save(){
+      let index = players.length
+      let new_player = {
+        firstname: firstname.value,
+        lastname: lastname.value,
+        score: parseInt(score.value),
+        date: new Date()
+      }
+
+      players.push(new_player)
+
+      let html = `<div id='player_${index}'>
+        <div>
+          ${new_player.firstname} ${new_player.lastname}<br/>
+          ${new_player.date}
+        </div>
+        <div class='score'> ${new_player.score}<br/> </div>
+        <div>
+          <button onclick='deletePlayer(${index})'>delete</button>
+          <button onclick='addFivePoints(${index})'>+5</button>
+          <button onclick='reduceFivePoints(${index})'>-5</button>
+        </div>
+      </div>`
+
+      let new_line = document.createElement('div')
+      new_line.innerHTML = html
+      players_list.append(new_line)
+    }
+
+    function deletePlayer(index){
+      let element = document.getElementById(`player_${index}`)
+      players = players.filter((player, id) => index != id)
+      element.parentNode.removeChild(element)
+    }
+
+    function addFivePoints(index){
+      players[index].score += 5
+      let element = document.getElementById(`player_${index}`)
+      for(let e of element.children){ 
+        if(e.getAttribute('class') == 'score'){
+          e.textContent = players[index].score;
+        }
+      }
+    }
+    function reduceFivePoints(index){
+      players[index].score -= 5;
+      let element = document.getElementById(`player_${index}`)
+      for(let e of element.children){ 
+        if(e.getAttribute('class') == 'score'){
+          e.textContent = players[index].score;
+        }
+      }
+    }
+
+
+  </script>
+</html>

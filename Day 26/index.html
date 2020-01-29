@@ -1,0 +1,26 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>JavaScript for Everyone:DOM</title>
+    <script src="countries.js"></script>
+    <style>
+      body{ height: 97vh; }
+      #list{
+        display: grid;
+        grid-template-columns: auto auto auto auto auto;
+      }
+      
+      
+    </style>
+  </head>
+  <body>
+    <input id='filter' onkeyup="search.executeFilter(search)"></input>
+    <button onclick="search.setTypeFilter('normal')">Normal</button>
+    <button onclick="search.setTypeFilter('all')">Contains</button>
+    <button onclick="search.order(null,search)">Order</button>
+    <br/>
+    <div id='list'></div>
+  </body>
+  <script src="main.js"></script>
+</html>

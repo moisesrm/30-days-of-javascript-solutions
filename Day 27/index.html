@@ -1,0 +1,52 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>JavaScript for Everyone:DOM</title>
+    <script src="countries.js"></script>
+    <style>
+      body{ height: 97vh; }
+      article {
+        display: grid;
+        grid-template-columns: auto auto auto auto auto;
+      }
+      article span{
+        padding: 15%;
+        border: 1px solid;
+        justify-content: center;
+        display: flex;
+
+      }
+    </style>
+  </head>
+  <body>
+    
+    <header>
+      <h1>Moises Machado</h1>
+    </header>
+
+    <section>
+      <article> Hi! I'm Moises a fullstack dev on Brasil. </article>
+      <article>
+        <span>30 Days of JS</span>
+        <span>1st Challange</span>
+        <span>Day 27</span>
+      </article>
+      <footer>
+        I know: <span id='languages'></span>
+      </footer>
+
+    </section>
+  </body>
+  <script>
+    let spanText = document.querySelector('#languages')
+    let languages = ['Python','Js','Ruby','Shell','C','C++','Java','Php']
+    setInterval(function(){
+      let color = Math.floor(Math.random()*16777215).toString(16)
+      let language = languages[Math.trunc(Math.random()*8)]
+      spanText.setAttribute('style',`color: #${color}`)
+
+      spanText.innerHTML = `<h1>${language}</h1>`
+    }, 3000);
+  </script>
+</html>
